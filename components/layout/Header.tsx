@@ -12,7 +12,7 @@ const Header = () => {
           height={20}
           width={20}
         />
-        <span className="text-preset-5-semibold">New goal</span>
+        <span className="font-inter text-preset-5-semibold">New goal</span>
       </button>
     </header>
   );
