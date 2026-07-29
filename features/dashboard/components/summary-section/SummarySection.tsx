@@ -14,6 +14,12 @@ const SummarySection = () => {
       </div>
       <SummaryCard title="Active goals" value={7} variant="active" />
       <SummaryCard title="Goals completed" value={2} variant="completed" />
+
+      <div className="w-full h-65 rounded-2xl border border-neutral-600 bg-neutral-800/70 p-4 backdrop-blur-md mt-4">
+        <h3 className="flex flex-col font-semibold font-inter text-[20px]">
+          Monthly deposits
+        </h3>
+      </div>
     </section>
   );
 };
