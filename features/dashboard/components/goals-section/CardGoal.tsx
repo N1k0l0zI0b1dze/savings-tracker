@@ -1,4 +1,4 @@
-import type { GoalCardProps } from "../types/GoalCardProps";
+import type { GoalCardProps } from "./types/GoalCardProps";
 
 const CardGoal = ({
   title,
